@@ -11,7 +11,3 @@ def display_board(board): #Prints the board in a clear 3×3 layout
 
 # def switch_player(player): #Switches turn between "X" and "O"
 
-
-board = ["X","O"," ","X","O","X"," ","O","X"]
-
-display_board(board)
