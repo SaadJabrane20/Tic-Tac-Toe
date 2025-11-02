@@ -8,7 +8,7 @@ def main():
 
     while not game_over:
         Board.display_board(board)
-        Board.player_move(current_player, Board)
+        Board.player_move(current_player, board)
         if Board.check_winner(board) == True:
             Board.display_board(board)
             print(f"The winner is {current_player}")
