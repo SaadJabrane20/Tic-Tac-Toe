@@ -1,5 +1,7 @@
 #Prints the board in a clear 3×3 layout
+import os
 def display_board(board):
+    os.system("cls" if os.name == "nt" else "clear")
     print(f"{board[0]}  | {board[1]} | {board[2]}\n---+---+---\n{board[3]}  | {board[4]} | {board[5]}\n---+---+---\n{board[6]}  | {board[7]} | {board[8]}")
 
 def switch_player(player): #Switches turn between "X" and "O"
